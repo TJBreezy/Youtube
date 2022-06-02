@@ -13,56 +13,68 @@
   justify-content: space-between;
 }
 
-.logo,
-.search,
-.other {
-  display: flex;
-  padding-top: 5%;
-  height: 30px;
+.logo {
+  width: 250px;
 }
+
 .menu {
-  width: 30px;
+  flex: 0.7;
   margin-left: 5px;
   border-style: none;
 }
 
 .YT {
-  width: 100px;
+  flex: 3;
   border-style: none;
 }
 
-.lense,
-.record,
-.create,
-.apps,
-.notifications,
-.google, .dot_menu {
-  width: 30px;
+.search {
+  width: 500px;
 }
 
-.lense {
-  margin-left: none;
-}
-.record,
-.create,
-.apps,
-.notifications,
-.google, .dot_menu {
-  width: 30px;
-  border-style: none;
-}
-
-input{
-  width: 200px;
+input {
+  flex: 6;
   border-right: none;
   border-width: 0.1px;
   box-shadow: none;
   border-color: rgb(158, 154, 154);
 }
 
-::placeholder{
-  padding-left: 5px;
+.lense,
+.record{
+  flex: 0.5;
 }
+
+::placeholder {
+  padding-left: 2%;
+}
+.other {
+  width: 250px;
+}
+.logo,
+.search,
+.other {
+  position: relative;
+  z-index: 120;
+  display: flex;
+  padding-top: 1%;
+  height: 55%;
+}
+
+
+.create,
+.apps,
+.notifications,
+.google,
+.dot_menu {
+  flex: 1;
+  border-style: none;
+}
+
+.lense {
+  margin-left: none;
+}
+
 
 
 .record {
