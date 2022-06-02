@@ -62,8 +62,8 @@ span{
   border-radius: 20px;
   padding-left: 2.5px;
   padding-right: 2.5px;
-  color: black;
-  font-size: 12px;
+  color: white;
+  font-size: 10px;
 }
 
 .creator, .view_date{
