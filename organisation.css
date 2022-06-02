@@ -31,7 +31,8 @@
 }
 
 li {
-  flex: 20%;
+  flex: 700px;
+  height: 450px;
   margin: 0.5%;
   background-color: blue;
 }
