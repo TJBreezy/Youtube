@@ -36,7 +36,7 @@
 .create,
 .apps,
 .notifications,
-.google {
+.google, .dot_menu {
   width: 30px;
 }
 
@@ -47,7 +47,7 @@
 .create,
 .apps,
 .notifications,
-.google {
+.google, .dot_menu {
   width: 30px;
   border-style: none;
 }
